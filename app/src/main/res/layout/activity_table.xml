@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    android:stretchColumns="0"> <!-- 拉伸第1列（菜单项），第2列（快捷键）保持紧凑 -->
+
+    <!-- 表头 -->
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello TableLayout"
+            android:gravity="center"
+            android:background="#CCCCCC"/>
+    </TableRow>
+
+    <!-- Open... 行 -->
+    <TableRow>
+        <TextView android:text="Open..." />
+        <TextView android:text="Ctrl-O" android:gravity="right"/>
+    </TableRow>
+
+    <!-- Save... 行 -->
+    <TableRow>
+        <TextView android:text="Save..." />
+        <TextView android:text="Ctrl-S" android:gravity="right"/>
+    </TableRow>
+
+    <!-- Save As... 行 -->
+    <TableRow>
+        <TextView android:text="Save As..." />
+        <TextView android:text="Ctrl-Shift-S" android:gravity="right"/>
+    </TableRow>
+
+    <!-- X Import... 行 -->
+    <TableRow>
+        <TextView android:text="X Import..." />
+        <TextView android:text="Ctrl-E" android:gravity="right"/>
+    </TableRow>
+
+    <!-- X Export... 行 -->
+    <TableRow>
+        <TextView android:text="X Export..." />
+        <TextView android:text="Ctrl-E" android:gravity="right"/>
+    </TableRow>
+
+    <!-- Quit 行 -->
+    <TableRow>
+        <TextView android:text="Quit" />
+    </TableRow>
+</TableLayout>
+   
